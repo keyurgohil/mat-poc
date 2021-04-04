@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+    <button type="button" aria-label="Toggle sidenav" *ngIf="isHandset$ | async ">
+        <mat-icon aria-label="Side nav toggle icon ">menu</mat-icon>
+    </button>
+    <button mat-button>Menu</button>
+</mat-toolbar>
+<!-- Add Content Here -->
+<router-outlet></router-outlet>
+<mat-toolbar class="footer center">
+    <span>My Application</span>
+</mat-toolbar>

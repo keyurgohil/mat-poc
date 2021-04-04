@@ -123,6 +123,10 @@
               "devServerTarget": "mat-poc:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

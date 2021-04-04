@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "mat-poc": {
+      "hosting": {
+        "mat-poc": [
+          "mat-poc"
+        ]
+      }
+    }
+  }
+}
